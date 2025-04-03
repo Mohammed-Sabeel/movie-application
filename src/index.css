@@ -1,0 +1,38 @@
+:root{
+  --movie-bg:#1f232d;
+}
+
+
+body{
+  background-color: var(--movie-bg) !important;
+  color: #fff !important;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.sidebar{
+  width: 80px;
+height: 100vh;
+text-align: center;
+}
+
+.sidebar ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar ul li a{
+  color: #fff;
+  text-decoration: none; 
+
+}
+
+.sidebar ul li a:hover{
+  color: #9f9090;
+
+}
+
+.sidebar ul li{
+  margin: 20px 0px;
+}
