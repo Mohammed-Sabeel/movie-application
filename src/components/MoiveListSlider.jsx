@@ -10,8 +10,8 @@ const MoiveListSlider = () => {
         arrows: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 5
+        slidesToShow: 6,
+        slidesToScroll: 6
     };
 
     return (
@@ -19,6 +19,7 @@ const MoiveListSlider = () => {
             <h6 className='mb-3'>You Might Like</h6>
             <div className="slider-container">
                 <Slider {...settings}>
+                    <MovieListCard />
                     <MovieListCard />
                     <MovieListCard />
                     <MovieListCard />
