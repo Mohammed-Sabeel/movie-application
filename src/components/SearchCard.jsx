@@ -3,13 +3,13 @@ import { Button, Form, InputGroup } from 'react-bootstrap'
 import { CiSearch } from "react-icons/ci";
 import { mymovieContext } from '../context/MovieContext';
 const SearchCard = () => {
-    const context = useContext(mymovieContext);
+    // const context = useContext(mymovieContext);
 
     return (
         <div>
             <div className='d-flex justify-content-between align-items-center'>
                 <div>
-                    <h5>{context}</h5>
+                    <h5>MS Tech</h5>
                     <p>Endless Entertainment, Anytime, Anywhere!</p>
                 </div>
                 <div className='moive-search-input'>
